@@ -18,6 +18,7 @@ class Cart implements SplSubject
         $this->tva = $tva;
         $this->storage = $storage;
 
+        // un objet qui permet d'enregistrer d'autres objets
         $this->observers = new SplObjectStorage();
     }
 
